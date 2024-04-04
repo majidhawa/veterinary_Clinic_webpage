@@ -1,5 +1,5 @@
 body{
-    margin: 10%;
+    margin: 5%;
 }
 .topnav {
     overflow: hidden;
@@ -74,6 +74,7 @@ body{
   .vets{
     display: flex;
     flex: auto auto auto;
+
   }
   .footer{
     display: flex;
@@ -91,6 +92,9 @@ padding-top: 100px;
     font-size: 50px;
   }
   #h2{
+    font-size: 70px;
+  }
+  #h3{
     font-size: 70px;
   }
   #p1{
@@ -174,3 +178,143 @@ padding-top: 100px;
     gap:10%;
   }
 
+  @media screen and (max-width:900px){         
+    
+    .topnav a {
+      float: none;
+      display: block;
+    }
+    .landingpage{
+      flex-wrap: wrap;
+    }
+    .landingtext{
+      padding-left: 0px;
+     padding-top: 0px;
+     font-size: 20px;
+
+    }
+    .container{
+      position: relative;
+      font-family: Arial;
+      object-fit:contain;   
+    }
+    #image1{
+     width: 300px;
+    }
+    #image2{
+      width: 300px;
+    }
+    #h1{
+      font-size: 30px;
+    }
+    #h2{
+      font-size: 40px;
+    }
+    
+    .text-block1{
+      position: absolute;
+      bottom: 200px;
+      right: 20px;
+      background-color: white;
+      color: black;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-size: 10px;
+      
+    }
+    .text-block2{
+      position: absolute;
+      bottom: 20px;
+      background-color: white;
+      color: black;
+      padding-left: 20px;
+      padding-right: 20px;
+      display: flex;
+      font-size: 10px;
+      border-radius: 30px;
+    }
+    .services{
+      flex-wrap: wrap;
+      gap: 0;
+      padding-left: 0px;
+    }
+    #h2{
+      font-size: 37px;
+    }
+    #h3{
+      font-size: 33px;
+    }
+    .vets{
+      display: flex;
+      flex: auto auto auto;
+    }
+    .footer{
+    flex-wrap: wrap;
+      gap: 0;
+
+    }
+    #top{
+      color: orangered;
+    }
+  
+   
+    #header{
+      flex-wrap: wrap;
+      gap: 0;
+      
+    }
+    
+    #p2{
+      font-size: 17px;
+      color: grey;
+    }
+    .page2{
+      flex-wrap: wrap;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      gap: 0px;
+      padding-left: 0px;
+    }
+    .container1 {
+      position: relative;
+      font-family: Arial;
+      background-color: aquamarine;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    .vettext{
+      padding-left: 0px;
+    }
+    #sidecomment{
+      color: aqua;
+      font-size: 17px;
+      text-align: center;
+    }
+    .comments{
+      flex-wrap: wrap;
+      gap: 0%;
+      padding-left: 0px;
+   
+    }
+    #helena{
+      flex-wrap: wrap;
+    }
+    .foot{
+      background-color: rgb(211, 224, 220);
+      padding: 0%;
+      text-align: center;
+    }
+    #Subscribe{
+      flex-wrap: wrap;
+      gap: 0%;
+      padding-left: 0px;
+      margin-left: 0%;
+      margin-right: 0%;
+    }
+    .vets{
+   flex-wrap: wrap;
+      gap:0%;
+    }
+  }
