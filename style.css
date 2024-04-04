@@ -1,0 +1,176 @@
+body{
+    margin: 10%;
+}
+.topnav {
+    overflow: hidden;
+    
+  }
+  .page1{
+    background-color: rgb(206, 224, 218);
+  }
+  
+  .topnav a {
+    float: right;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    
+  }
+  
+  
+  .topnav a.split {
+    float: left;
+    color: black;
+    font-size: 22px;
+  }
+  .landingpage{
+    
+    display: flex;
+    flex: auto auto;
+    object-fit:cover;
+  
+  }
+.container {
+  position: relative;
+  font-family: Arial;
+  object-fit: cover;
+}
+.text-block1{
+    position: absolute;
+    bottom: 200px;
+    right: 20px;
+    background-color: white;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+  }
+  .text-block2{
+    position: absolute;
+    bottom: 20px;
+    background-color: white;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    font-size: 14px;
+    border-radius: 30px;
+  }
+  #image1{
+    width: 600px;
+  }
+  .services{
+    display: flex;
+    flex: auto auto auto;
+    gap: 15%;
+    padding-left: 100px;
+  }
+  .vets{
+    display: flex;
+    flex: auto auto auto;
+  }
+  .footer{
+    display: flex;
+    flex: auto auto auto auto;
+    gap: 15%;
+  }
+  .landingtext{
+padding-left: 200px;
+padding-top: 100px;
+  }
+  #top{
+    color: orangered;
+  }
+  #h1{
+    font-size: 50px;
+  }
+  #h2{
+    font-size: 70px;
+  }
+  #p1{
+    color: grey;
+  }
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: white;
+    background-color:skyblue;
+    text-align: center;
+    border-radius: 5px;
+
+  }
+  #header{
+    display: flex;
+    gap: 25%;
+    
+  }
+  
+  #p2{
+    font-size: 22px;
+    color: grey;
+  }
+  .page2{
+    display: flex;
+    flex: auto auto;
+    background-color: rgb(206, 224, 218);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 100px;
+    padding-left: 100px;
+
+  }
+  .container1 {
+    position: relative;
+    font-family: Arial;
+    object-fit: cover;
+    background-color: aquamarine;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .vettext{
+    padding-left: 100px;
+  }
+  #sidecomment{
+    color: aqua;
+    font-size: 17px;
+    text-align: right;
+  }
+  .comments{
+    display: flex;
+    flex: auto auto ;
+    gap: 30%;
+    padding-left: 50px;
+    object-fit: fill;
+  }
+  #helena{
+    display: flex;
+  }
+  .foot{
+    background-color: rgb(211, 224, 220);
+    padding: 3%;
+    text-align: center;
+  }
+  #Subscribe{
+    display: flex;
+    gap: 20%;
+    background-color: aliceblue;
+    padding-left: 200px;
+    margin-left: 10%;
+    margin-right: 20%;
+  }
+  .vets{
+    display: flex;
+    flex: auto auto auto;
+    gap:10%;
+  }
+
